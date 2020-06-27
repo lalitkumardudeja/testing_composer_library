@@ -1,0 +1,13 @@
+{
+    "name": "lalitkumardudeja/learn_composer",
+    "description": "Learning uploading the php library to packagist and then install that package via composer",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4": {
+            "RandomQuotes\\":"src/"
+        }
+    },
+    "require": {}
+}
